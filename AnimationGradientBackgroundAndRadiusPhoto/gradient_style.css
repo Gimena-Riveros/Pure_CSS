@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: color-anim 12s infinite linear alternate;
+    -webkit-animation: color-anim 12s infinite linear alternate;
+  }
+  #title-h1 {
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  #title-h1  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  #container{
+    background: transparent;
+    background-image: url(../TaylorSwift.png);            
+    border-radius: 32% 68% 66% 34% / 34% 41% 59% 66%;
+    background-repeat: no-repeat;
+    /*border-radius: 36% 64% 70% 30% / 30% 37% 63% 70%; */
+    /*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    width: 397px;
+    height: 413px; 
+    margin: 100px auto;
+    transition: all 1.3s;
+}
+
+#container:hover {
+    border-radius: 56% 44% 13% 87% / 57% 58% 42% 43%;
+}
+@keyframes color-anim {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+}
+/*   https://uigradients.com/#Curiosityblue   */
