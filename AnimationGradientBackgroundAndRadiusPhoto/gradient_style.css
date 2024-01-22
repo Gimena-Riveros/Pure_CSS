@@ -36,7 +36,7 @@
   }
   #container{
     background: transparent;
-    background-image: url(../TaylorSwift.png);            
+    background-image: url(TaylorSwift.png);            
     border-radius: 32% 68% 66% 34% / 34% 41% 59% 66%;
     background-repeat: no-repeat;
     /*border-radius: 36% 64% 70% 30% / 30% 37% 63% 70%; */
